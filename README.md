@@ -17,4 +17,6 @@ bison.tab.c and lex.yy.c files are automatically generated from the execution of
 
 input.cpp is the name of the file containing C language code which is to be compiled.
 
+Some Sample C code files and their corresponding Intermediate Code output are also available.
+
 
