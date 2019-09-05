@@ -2563,10 +2563,10 @@ int main(int argc, char **argv)
     f->resultType = 0;
     functionTable.push_back(*f);
     yyparse();
-    for(int i=0;i<quadruple.size();i++)
+    /*for(int i=0;i<quadruple.size();i++)
     {
    	 cout<<i<<": "<<quadruple[i]<<endl;
-    }
+    }*/
     int label=1;
     vector<string>final;
     final.resize(quadruple.size()+1);
