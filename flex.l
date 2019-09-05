@@ -3,7 +3,7 @@
     #include <string.h>
     #include <bits/stdc++.h>
     
-    #include "ass5_bison.tab.h"
+    #include "bison.tab.h"
     using namespace std;
     extern int lineno;
     
