@@ -1,0 +1,26 @@
+func begin main;
+t0 = 0;
+sum_2 = t0;
+t0 = 1;
+i_2 = t0;
+L5: ;
+t0 = i_2;
+t1 = 10;
+t2 = t0 <= t1;
+goto L14;
+L9: ;
+t0 = i_2;
+t1 = 1;
+t3 = t0 + t1;
+i_2 = t3;
+goto L5;
+L14: ;
+if t2 <=0 goto L20;
+t0 = sum_2;
+t1 = i_2;
+t2 = t0 + t1;
+sum_2 = t2;
+goto L9;
+L20: ;
+func end;
+Valid Syntax
